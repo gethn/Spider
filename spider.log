@@ -1,0 +1,520 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): pymotw.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 39
+INFO:root:Empty robots.txt for https://pymotw.com/robots.txt
+INFO:root:ROBOT: 0  https://pymotw.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 158
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://www.stackoverflow.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 148
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 40041
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 24366
+INFO:root:ROBOT: 1  http://www.bbc.co.uk/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 25806
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.facebook.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 0  https://www.facebook.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 252
+INFO:root:ROBOT: 1  http://www.youtube.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 1319
+INFO:root:ROBOT: 1  http://www.amazon.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 282
+INFO:root:ROBOT: 1  http://www.cyclingnews.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wikipedia.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.wikipedia.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 202
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): en.wikipedia.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 4911
+INFO:root:ROBOT: 1  http://www.wikipedia.org/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wikipedia.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.wikipedia.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 17195
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.buzzfeed.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 272
+INFO:root:ROBOT: 1  http://www.buzzfeed.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.buzzfeed.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dailymail.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 160
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.dailymail.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 1098
+INFO:root:ROBOT: 1  http://dailymail.co.uk/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dailymail.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 150
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.dailymail.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): www.dailymail.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /home/index.html HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): chat.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 467
+INFO:root:ROBOT: 1  http://chat.stackoverflow.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): chat.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 21342
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): meta.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 737
+INFO:root:ROBOT: 1  http://meta.stackoverflow.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): meta.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 22717
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  https://stackoverflow.com/users/signup?ssrc=site_switcher&returnurl=http%3a%2f%2fstackoverflow.com%2f/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /users/signup?ssrc=site_switcher&returnurl=http%3a%2f%2fstackoverflow.com%2f/ HTTP/1.1" 200 8269
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): blog.stackoverflow.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 404 None
+INFO:root:Empty robots.txt for http://blog.stackoverflow.com/robots.txt
+INFO:root:ROBOT: 0  http://blog.stackoverflow.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): security.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://security.stackexchange.com/questions/106382/does-one-need-to-be-a-good-programmer-to-perform-secure-source-code-analysis/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): security.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/106382/does-one-need-to-be-a-good-programmer-to-perform-secure-source-code-analysis/ HTTP/1.1" 200 25183
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): english.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://english.stackexchange.com/questions/290508/was-the-dark-side-used-a-long-time-ago/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): english.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/290508/was-the-dark-side-used-a-long-time-ago/ HTTP/1.1" 200 19233
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): music.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://music.stackexchange.com/questions/39773/how-do-i-write-an-original-melody/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): music.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/39773/how-do-i-write-an-original-melody/ HTTP/1.1" 200 19293
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): buddhism.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://buddhism.stackexchange.com/questions/12826/is-there-a-generally-agreed-upon-idea-of-what-buddha-nature-is/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): buddhism.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/12826/is-there-a-generally-agreed-upon-idea-of-what-buddha-nature-is/ HTTP/1.1" 200 14948
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): bicycles.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://bicycles.stackexchange.com/questions/35759/what-does-campy-mean/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): bicycles.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/35759/what-does-campy-mean/ HTTP/1.1" 200 16470
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): ell.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://ell.stackexchange.com/questions/74309/what-is-the-opposite-of-the-word-smell-for-the-following-context/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): ell.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/74309/what-is-the-opposite-of-the-word-smell-for-the-following-context/ HTTP/1.1" 200 15881
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): math.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://math.stackexchange.com/questions/1551193/limit-of-cos-under-radical-using-lh%c3%b4pital/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): math.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/1551193/limit-of-cos-under-radical-using-lh%C3%B4pital/ HTTP/1.1" 200 18802
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): german.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://german.stackexchange.com/questions/26832/pronunciation-of-the-surname-ruhle/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): german.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/26832/pronunciation-of-the-surname-ruhle/ HTTP/1.1" 200 18320
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): unix.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://unix.stackexchange.com/questions/246167/bash-script-to-minify-pngs-keeps-stopping/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): unix.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/246167/bash-script-to-minify-pngs-keeps-stopping/ HTTP/1.1" 200 17660
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): tex.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://tex.stackexchange.com/questions/280493/if-statement-to-know-whether-a-new-chapter-has-been-created/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): tex.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/280493/if-statement-to-know-whether-a-new-chapter-has-been-created/ HTTP/1.1" 200 17151
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): codegolf.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://codegolf.stackexchange.com/questions/65020/output-the-current-time/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): codegolf.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/65020/output-the-current-time/ HTTP/1.1" 200 40247
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): superuser.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://superuser.com/questions/1006811/transmission-daemon-does-not-upload-but-can-download/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): superuser.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/1006811/transmission-daemon-does-not-upload-but-can-download/ HTTP/1.1" 200 17879
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): physics.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://physics.stackexchange.com/questions/221219/if-refraction-slows-down-light-isnt-it-possible-to-hold-light-still/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): physics.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/221219/if-refraction-slows-down-light-isnt-it-possible-to-hold-light-still/ HTTP/1.1" 200 16868
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): russian.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://russian.stackexchange.com/questions/11267/to-say-someone-is-spread-thin/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): russian.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/11267/to-say-someone-is-spread-thin/ HTTP/1.1" 200 15794
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): scifi.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://scifi.stackexchange.com/questions/108948/what-does-kirk-mean-by-im-a-soldier-not-a-diplomat/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): scifi.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/108948/what-does-kirk-mean-by-im-a-soldier-not-a-diplomat/ HTTP/1.1" 200 21307
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): diy.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://diy.stackexchange.com/questions/78847/how-do-i-read-the-markings-printed-on-the-outside-of-electric-wires/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): diy.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/78847/how-do-i-read-the-markings-printed-on-the-outside-of-electric-wires/ HTTP/1.1" 200 19132
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): photo.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://photo.stackexchange.com/questions/71334/does-the-number-of-shots-differ-dramatically-between-an-amateur-and-a-pro/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): photo.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/71334/does-the-number-of-shots-differ-dramatically-between-an-amateur-and-a-pro/ HTTP/1.1" 200 23732
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): mathoverflow.net
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://mathoverflow.net/questions/224826/examples-and-counterexamples-in-commutative-algebra/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): mathoverflow.net
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/224826/examples-and-counterexamples-in-commutative-algebra/ HTTP/1.1" 200 12843
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): academia.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 755
+INFO:root:ROBOT: 1  http://academia.stackexchange.com/questions/59049/respected-journal-uses-only-a-single-reviewer-and-has-a-high-acceptance-rate-8/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): academia.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /questions/59049/respected-journal-uses-only-a-single-reviewer-and-has-a-high-acceptance-rate-8/ HTTP/1.1" 200 19343
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): blog.stackoverflow.com?blb=1
+WARNING:requests.packages.urllib3.connectionpool:Retrying (0 attempts remain) after connection broken by 'gaierror(-2, 'Name or service not known')': /?blb=1/robots.txt
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): data.stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 224
+INFO:root:Empty robots.txt for http://data.stackexchange.com/robots.txt
+INFO:root:ROBOT: 0  http://data.stackexchange.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 452
+INFO:root:ROBOT: 1  http://stackexchange.com/legal/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): stackexchange.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /legal/ HTTP/1.1" 200 12920
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): creativecommons.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 35
+INFO:root:ROBOT: 1  http://creativecommons.org/licenses/by-sa/3.0/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): creativecommons.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /licenses/by-sa/3.0/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): ssl.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 84
+INFO:root:ROBOT: 1  https://ssl.bbc.co.uk/id/status/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): ssl.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /id/status/ HTTP/1.1" 301 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (2): ssl.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /id/status HTTP/1.1" 200 48914
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bbc.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 18146
+INFO:root:ROBOT: 1  http://www.bbc.com/news/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bbc.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /news/ HTTP/1.1" 301 20
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (2): www.bbc.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /news HTTP/1.1" 200 35117
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): shop.bbc.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 403 276
+INFO:root:Empty robots.txt for http://shop.bbc.com/robots.txt
+INFO:root:ROBOT: 0  http://shop.bbc.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): search.bbc.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 404 15
+INFO:root:Empty robots.txt for http://search.bbc.co.uk/robots.txt
+INFO:root:ROBOT: 0  http://search.bbc.co.uk/search/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): ecustomeropinions.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 125
+INFO:root:ROBOT: 1  https://ecustomeropinions.com/survey/survey.php?sid=130662785/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): ecustomeropinions.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /survey/survey.php?sid=130662785/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): advertising.bbcworldwide.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 24
+INFO:root:Empty robots.txt for http://advertising.bbcworldwide.com/robots.txt
+INFO:root:ROBOT: 0  http://advertising.bbcworldwide.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 187
+INFO:root:ROBOT: 1  https://accounts.google.com/ServiceLogin?passive=true&uilel=3&service=youtube&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26next%3D%252F%26app%3Ddesktop%26feature%3Dsign_in_promo%26hl%3Den-GB&hl=en-GB/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /ServiceLogin?passive=true&uilel=3&service=youtube&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26next%3D%252F%26app%3Ddesktop%26feature%3Dsign_in_promo%26hl%3Den-GB&hl=en-GB/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): plus.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  https://plus.google.com/+youtube/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): plus.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /%2Byoutube/ HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (2): plus.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /%2BYouTube/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.google.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  https://www.google.co.uk/intl/en-GB/policies/privacy/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.google.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /intl/en-GB/policies/privacy/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 695
+INFO:root:ROBOT: 1  https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fdeveloper.amazon.com%2Fappsandservices%3Fsc_channel%3Dba%26sc_place%3Damazonhome&source=standards&token=DF0CFA9EECFD0DEDEAE6094981480E48DBC1E112/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fdeveloper.amazon.com%2Fappsandservices%3Fsc_channel%3Dba%26sc_place%3Damazonhome&source=standards&token=DF0CFA9EECFD0DEDEAE6094981480E48DBC1E112/ HTTP/1.1" 301 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): developer.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /appsandservices?sc_channel=ba&sc_place=amazonhome HTTP/1.1" 200 30833
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): advertising.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 404 None
+INFO:root:Empty robots.txt for https://advertising.amazon.com/robots.txt
+INFO:root:ROBOT: 0  https://advertising.amazon.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com.au
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 627
+INFO:root:ROBOT: 1  http://www.amazon.com.au/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com.au
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com.br
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 693
+INFO:root:ROBOT: 1  http://www.amazon.com.br/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com.br
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.ca
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 721
+INFO:root:ROBOT: 1  http://www.amazon.ca/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.ca
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.cn
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  http://www.amazon.cn/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.cn
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.fr
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 728
+INFO:root:ROBOT: 1  http://www.amazon.fr/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.fr
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.de
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 967
+INFO:root:ROBOT: 1  http://www.amazon.de/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.de
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.in
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 747
+INFO:root:ROBOT: 1  http://www.amazon.in/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.in
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.it
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 793
+INFO:root:ROBOT: 1  http://www.amazon.it/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.it
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.co.jp
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 826
+INFO:root:ROBOT: 1  http://www.amazon.co.jp/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.co.jp
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.com.mx
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 141
+INFO:root:ROBOT: 0  http://www.amazon.com.mx/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.nl
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 638
+INFO:root:ROBOT: 1  http://www.amazon.nl/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.nl
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.es
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 768
+INFO:root:ROBOT: 1  http://www.amazon.es/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.es
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 749
+INFO:root:ROBOT: 1  http://www.amazon.co.uk/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.amazon.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.6pm.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 139
+INFO:root:ROBOT: 1  http://www.6pm.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.6pm.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 16915
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.abebooks.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 431
+INFO:root:ROBOT: 1  http://www.abebooks.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.abebooks.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 10278
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.acx.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 130
+INFO:root:ROBOT: 1  http://www.acx.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.acx.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.afterschool.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.afterschool.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.afterschool.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 33597
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.alexa.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 650
+INFO:root:Empty robots.txt for http://www.alexa.com/robots.txt
+INFO:root:ROBOT: 0  http://www.alexa.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): aws.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): aws.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.audible.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  http://www.audible.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.audible.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.beautybar.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.beautybar.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.beautybar.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 34501
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bookdepository.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 176
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.casa.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.casa.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.casa.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 36283
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.comixology.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 302 221
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.comixology.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 99
+INFO:root:ROBOT: 1  http://www.comixology.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.comixology.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 302 211
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.comixology.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 10426
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.createspace.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 302 222
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.createspace.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 690
+INFO:root:ROBOT: 1  http://www.createspace.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.createspace.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 302 212
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.createspace.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.diapers.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.diapers.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.diapers.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 40702
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.dpreview.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 135
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.eastdane.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 152
+INFO:root:ROBOT: 1  http://www.eastdane.com/welcome/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.eastdane.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /welcome/ HTTP/1.1" 301 241
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.eastdane.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /welcome/ HTTP/1.1" 404 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.fabric.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.fabric.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 282
+INFO:root:ROBOT: 1  http://www.fabric.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.fabric.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.fabric.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 15905
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.goodreads.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  http://www.goodreads.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.goodreads.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.imdb.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 None
+INFO:root:ROBOT: 1  http://www.imdb.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.imdb.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.junglee.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 720
+INFO:root:ROBOT: 1  http://www.junglee.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.junglee.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): kdp.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 301 241
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kdp.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 364
+INFO:root:ROBOT: 1  http://kdp.amazon.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): kdp.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 301 231
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kdp.amazon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.look.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.look.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.look.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 32901
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.myhabit.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 436
+INFO:root:ROBOT: 1  http://www.myhabit.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.myhabit.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.shopbop.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 324
+INFO:root:ROBOT: 1  http://www.shopbop.com/welcome/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.shopbop.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /welcome/ HTTP/1.1" 301 240
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.shopbop.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /welcome/ HTTP/1.1" 404 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.soap.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.soap.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.soap.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 38406
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.tenmarks.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 305
+INFO:root:ROBOT: 1  http://www.tenmarks.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.tenmarks.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.vinemarket.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.vinemarket.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.vinemarket.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 35289
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wag.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.wag.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wag.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 36103
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.yoyo.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 119
+INFO:root:ROBOT: 1  http://www.yoyo.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.yoyo.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 33217
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.zappos.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 139
+INFO:root:ROBOT: 1  http://www.zappos.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.zappos.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 24677
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): forum.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 58
+INFO:root:ROBOT: 1  http://forum.cyclingnews.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): forum.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): video.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 404 None
+INFO:root:Empty robots.txt for http://video.cyclingnews.com/robots.txt
+INFO:root:ROBOT: 0  http://video.cyclingnews.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): autobus.cyclingnews.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 89
+INFO:root:ROBOT: 0  http://autobus.cyclingnews.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): twitter.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 472
+INFO:root:ROBOT: 1  https://twitter.com/Cyclingnewsfeed/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): twitter.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /Cyclingnewsfeed/ HTTP/1.1" 200 29489
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): feeds2.feedburner.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 49
+INFO:root:ROBOT: 1  http://feeds2.feedburner.com/cyclingnews/news/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): feeds2.feedburner.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cyclingnews/news/ HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bikeradar.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 457
+INFO:root:ROBOT: 1  http://www.bikeradar.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bikeradar.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): bikeradarux.typeform.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 60
+INFO:root:ROBOT: 1  https://bikeradarux.typeform.com/to/kAgSrb/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): bikeradarux.typeform.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /to/kAgSrb/ HTTP/1.1" 404 3033
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.immediate.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 35
+INFO:root:ROBOT: 1  http://www.immediate.co.uk/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.immediate.co.uk
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.220triathlon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 227
+INFO:root:ROBOT: 1  http://www.220triathlon.com/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.220triathlon.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET / HTTP/1.1" 200 24637
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.bikely.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /robots.txt HTTP/1.1" 200 123
+INFO:root:ROBOT: 0  http://www.bikely.com/

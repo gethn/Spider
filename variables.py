@@ -1,0 +1,20 @@
+from collections import deque 
+
+# Set size of temp array so same host are not scrapped multiple time simultaneously 
+TEMP_ARRAY = 100
+
+# Define un-scrapped url queue
+queue = deque(['https://pymotw.com/','http://www.stackoverflow.com/', 'http://www.bbc.co.uk/','https://www.facebook.com/','http://www.youtube.com/','http://www.amazon.com/','http://www.cyclingnews.com/','http://www.wikipedia.org/','http://www.buzzfeed.com/','http://dailymail.co.uk/'])
+
+# Define scrapped url list
+scrapped = []
+
+# Define temp array and set size to TEMP_ARRAY
+temp = deque([])
+for x in range(0,TEMP_ARRAY):
+	temp.append(None)
+
+# Set up logging
+import logging
+logging.basicConfig(filename='spider.log', filemode='w', level=logging.DEBUG)
+

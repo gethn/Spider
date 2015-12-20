@@ -1,0 +1,78 @@
+import pdb
+
+from collections import deque
+from lxml import html
+import requests 
+
+TEMP_ARRAY = 10
+
+queue = deque(['https://pymotw.com/2/pdb'])
+scrapped = []
+temp = deque([])
+for x in range(0,TEMP_ARRAY):
+	temp.append(None)
+
+def scrapper(url):
+	global scrapped, queue, temp
+
+	page = requests.get(url)
+	tree = html.fromstring(page.content)
+	links = tree.xpath('//a/@href')
+
+	for i, link in enumerate(links):
+	    if not link.startswith('http'):
+		links[i] = url + link
+	    if link.endswith('/'):
+		links[i] = links[i][:-1] 
+
+	for link in links:
+	    if link not in scrapped:
+	        queue.append(link)
+
+	scrapped.append(url)
+
+def hostname(url):
+	return url.split('/')[2]		        
+
+def pop():
+	global scrapped, queue, temp	
+	
+	if len(queue) == 0:
+		raise Exception('URL Queue Empty') 
+		return
+
+	url = queue.popleft()
+	base = hostname(url)
+
+	if url in scrapped:
+		try:	
+			url = pop()
+		except:
+			raise
+			return
+	elif base in temp:
+		queue.append(url)
+		try:
+			url = pop()
+		except:
+			raise
+			return
+	temp.popleft()
+	temp.append(base)
+	return url
+
+for x in range(0,10):		
+	try:
+		print 'x = ',x
+		url = pop()
+		scrapper(url)
+	except Exception as err:
+		print err
+
+#print 'temp = ', temp
+#print 'queue = ', queue
+print len(scrapped)
+
+		
+
+

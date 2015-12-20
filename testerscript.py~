@@ -1,0 +1,8 @@
+import variables
+import functions
+
+
+robot = functions.robotcheck('http://www.amazon.com/')
+
+print robot
+

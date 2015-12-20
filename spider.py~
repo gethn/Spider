@@ -1,0 +1,27 @@
+import pdb
+import variables
+import functions
+
+for x in range(0,5):		
+	try:
+		print 'x = ',x
+		url = functions.pop()
+		functions.scrapper(url)
+	except Exception as err:
+		print err
+
+########TESTING###########
+print 'Length of queue = ', len(variables.queue)
+print 'temp = ', variables.temp
+
+tmp = []
+for i, url in enumerate(variables.queue):
+	tmp.append(url.split('/')[2])
+print 'Different hostnames in queue = ', len(set(tmp))
+
+#for line in set(tmp):
+#	print line
+
+	
+
+
